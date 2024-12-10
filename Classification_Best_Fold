@@ -2,14 +2,14 @@
  "cells": [
   {
    "cell_type": "markdown",
-   "id": "3a0a0275",
+   "id": "f12e2d40",
    "metadata": {
     "id": "x9LNzEYERaH2",
     "papermill": {
-     "duration": 0.003876,
-     "end_time": "2024-12-09T16:36:07.550302",
+     "duration": 0.003469,
+     "end_time": "2024-12-10T04:10:06.709848",
      "exception": false,
-     "start_time": "2024-12-09T16:36:07.546426",
+     "start_time": "2024-12-10T04:10:06.706379",
      "status": "completed"
     },
     "tags": []
@@ -21,19 +21,19 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "f53e2b47",
+   "id": "cd7e2163",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-12-09T16:36:07.558518Z",
-     "iopub.status.busy": "2024-12-09T16:36:07.557890Z",
-     "iopub.status.idle": "2024-12-09T16:36:08.579941Z",
-     "shell.execute_reply": "2024-12-09T16:36:08.579056Z"
+     "iopub.execute_input": "2024-12-10T04:10:06.717435Z",
+     "iopub.status.busy": "2024-12-10T04:10:06.717072Z",
+     "iopub.status.idle": "2024-12-10T04:10:07.734252Z",
+     "shell.execute_reply": "2024-12-10T04:10:07.733281Z"
     },
     "papermill": {
-     "duration": 1.028269,
-     "end_time": "2024-12-09T16:36:08.581916",
+     "duration": 1.023246,
+     "end_time": "2024-12-10T04:10:07.736279",
      "exception": false,
-     "start_time": "2024-12-09T16:36:07.553647",
+     "start_time": "2024-12-10T04:10:06.713033",
      "status": "completed"
     },
     "tags": []
@@ -43,7 +43,7 @@
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "GPU 0: Tesla P100-PCIE-16GB (UUID: GPU-ad18e04a-a0fe-7c91-8f81-2e9f6522af7d)\r\n"
+      "GPU 0: Tesla P100-PCIE-16GB (UUID: GPU-b34209ce-4030-c799-fd7f-6ad7932eb542)\r\n"
      ]
     }
    ],
@@ -54,20 +54,20 @@
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "1c879e08",
+   "id": "d0ef76ea",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-12-09T16:36:08.590059Z",
-     "iopub.status.busy": "2024-12-09T16:36:08.589764Z",
-     "iopub.status.idle": "2024-12-09T16:37:15.056474Z",
-     "shell.execute_reply": "2024-12-09T16:37:15.055414Z"
+     "iopub.execute_input": "2024-12-10T04:10:07.744283Z",
+     "iopub.status.busy": "2024-12-10T04:10:07.743920Z",
+     "iopub.status.idle": "2024-12-10T04:11:13.370843Z",
+     "shell.execute_reply": "2024-12-10T04:11:13.369852Z"
     },
     "id": "K0oS6IH7VTZX",
     "papermill": {
-     "duration": 66.473234,
-     "end_time": "2024-12-09T16:37:15.058634",
+     "duration": 65.633235,
+     "end_time": "2024-12-10T04:11:13.372928",
      "exception": false,
-     "start_time": "2024-12-09T16:36:08.585400",
+     "start_time": "2024-12-10T04:10:07.739693",
      "status": "completed"
     },
     "tags": []
@@ -87,19 +87,19 @@
   {
    "cell_type": "code",
    "execution_count": 3,
-   "id": "b3a25400",
+   "id": "f1f07a90",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-12-09T16:37:15.066572Z",
-     "iopub.status.busy": "2024-12-09T16:37:15.066274Z",
-     "iopub.status.idle": "2024-12-09T16:38:18.363647Z",
-     "shell.execute_reply": "2024-12-09T16:38:18.362748Z"
+     "iopub.execute_input": "2024-12-10T04:11:13.380687Z",
+     "iopub.status.busy": "2024-12-10T04:11:13.380409Z",
+     "iopub.status.idle": "2024-12-10T04:12:15.080449Z",
+     "shell.execute_reply": "2024-12-10T04:12:15.079344Z"
     },
     "papermill": {
-     "duration": 63.30372,
-     "end_time": "2024-12-09T16:38:18.365833",
+     "duration": 61.706175,
+     "end_time": "2024-12-10T04:12:15.082499",
      "exception": false,
-     "start_time": "2024-12-09T16:37:15.062113",
+     "start_time": "2024-12-10T04:11:13.376324",
      "status": "completed"
     },
     "tags": []
@@ -170,20 +170,20 @@
       "Downloading tensorflow-2.8.2-cp310-cp310-manylinux2010_x86_64.whl (498.0 MB)\r\n",
       "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m498.0/498.0 MB\u001b[0m \u001b[31m3.3 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading keras-2.8.0-py2.py3-none-any.whl (1.4 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m1.4/1.4 MB\u001b[0m \u001b[31m8.4 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m1.4/1.4 MB\u001b[0m \u001b[31m7.2 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading Keras_Preprocessing-1.1.2-py2.py3-none-any.whl (42 kB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m42.6/42.6 kB\u001b[0m \u001b[31m2.3 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m42.6/42.6 kB\u001b[0m \u001b[31m2.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading protobuf-3.19.6-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.1 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m1.1/1.1 MB\u001b[0m \u001b[31m47.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m1.1/1.1 MB\u001b[0m \u001b[31m52.5 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading tensorboard-2.8.0-py3-none-any.whl (5.8 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m5.8/5.8 MB\u001b[0m \u001b[31m99.3 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m5.8/5.8 MB\u001b[0m \u001b[31m98.0 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading tensorflow_estimator-2.8.0-py2.py3-none-any.whl (462 kB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m462.3/462.3 kB\u001b[0m \u001b[31m25.2 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m462.3/462.3 kB\u001b[0m \u001b[31m28.1 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading google_auth_oauthlib-0.4.6-py2.py3-none-any.whl (18 kB)\r\n",
       "Downloading tensorboard_data_server-0.6.1-py3-none-manylinux2010_x86_64.whl (4.9 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m4.9/4.9 MB\u001b[0m \u001b[31m67.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m4.9/4.9 MB\u001b[0m \u001b[31m93.8 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading tensorboard_plugin_wit-1.8.1-py3-none-any.whl (781 kB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m781.3/781.3 kB\u001b[0m \u001b[31m38.9 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m781.3/781.3 kB\u001b[0m \u001b[31m41.9 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hInstalling collected packages: tensorflow-estimator, tensorboard-plugin-wit, keras, tensorboard-data-server, protobuf, keras-preprocessing, google-auth-oauthlib, tensorboard, tensorflow\r\n",
       "  Attempting uninstall: tensorflow-estimator\r\n",
       "    Found existing installation: tensorflow-estimator 2.15.0\r\n",
@@ -245,13 +245,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "9cf0de98",
+   "id": "ed63baa3",
    "metadata": {
     "papermill": {
-     "duration": 0.011003,
-     "end_time": "2024-12-09T16:38:18.388025",
+     "duration": 0.010906,
+     "end_time": "2024-12-10T04:12:15.105147",
      "exception": false,
-     "start_time": "2024-12-09T16:38:18.377022",
+     "start_time": "2024-12-10T04:12:15.094241",
      "status": "completed"
     },
     "tags": []
@@ -263,20 +263,20 @@
   {
    "cell_type": "code",
    "execution_count": 4,
-   "id": "4502ad09",
+   "id": "e9afddaa",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-12-09T16:38:18.411999Z",
-     "iopub.status.busy": "2024-12-09T16:38:18.411661Z",
-     "iopub.status.idle": "2024-12-09T16:38:25.472363Z",
-     "shell.execute_reply": "2024-12-09T16:38:25.471442Z"
+     "iopub.execute_input": "2024-12-10T04:12:15.129435Z",
+     "iopub.status.busy": "2024-12-10T04:12:15.129070Z",
+     "iopub.status.idle": "2024-12-10T04:12:22.196584Z",
+     "shell.execute_reply": "2024-12-10T04:12:22.195625Z"
     },
     "id": "yE1sbHYQVbBq",
     "papermill": {
-     "duration": 7.07543,
-     "end_time": "2024-12-09T16:38:25.474476",
+     "duration": 7.082436,
+     "end_time": "2024-12-10T04:12:22.198652",
      "exception": false,
-     "start_time": "2024-12-09T16:38:18.399046",
+     "start_time": "2024-12-10T04:12:15.116216",
      "status": "completed"
     },
     "tags": []
@@ -585,14 +585,14 @@
   },
   {
    "cell_type": "markdown",
-   "id": "ea26e851",
+   "id": "0113336a",
    "metadata": {
     "id": "uBAeW6J5S68g",
     "papermill": {
-     "duration": 0.010464,
-     "end_time": "2024-12-09T16:38:25.496653",
+     "duration": 0.010757,
+     "end_time": "2024-12-10T04:12:22.221170",
      "exception": false,
-     "start_time": "2024-12-09T16:38:25.486189",
+     "start_time": "2024-12-10T04:12:22.210413",
      "status": "completed"
     },
     "tags": []
@@ -604,20 +604,20 @@
   {
    "cell_type": "code",
    "execution_count": 5,
-   "id": "80e4432b",
+   "id": "ef907c2a",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-12-09T16:38:25.519638Z",
-     "iopub.status.busy": "2024-12-09T16:38:25.518700Z",
-     "iopub.status.idle": "2024-12-09T16:38:25.523407Z",
-     "shell.execute_reply": "2024-12-09T16:38:25.522555Z"
+     "iopub.execute_input": "2024-12-10T04:12:22.245007Z",
+     "iopub.status.busy": "2024-12-10T04:12:22.244005Z",
+     "iopub.status.idle": "2024-12-10T04:12:22.248423Z",
+     "shell.execute_reply": "2024-12-10T04:12:22.247706Z"
     },
     "id": "2I3IQnNSS9-a",
     "papermill": {
-     "duration": 0.017855,
-     "end_time": "2024-12-09T16:38:25.524994",
+     "duration": 0.017875,
+     "end_time": "2024-12-10T04:12:22.250061",
      "exception": false,
-     "start_time": "2024-12-09T16:38:25.507139",
+     "start_time": "2024-12-10T04:12:22.232186",
      "status": "completed"
     },
     "tags": []
@@ -637,21 +637,21 @@
   {
    "cell_type": "code",
    "execution_count": 6,
-   "id": "b83f88fe",
+   "id": "8557d351",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-12-09T16:38:25.547890Z",
-     "iopub.status.busy": "2024-12-09T16:38:25.547602Z",
-     "iopub.status.idle": "2024-12-09T16:38:25.559294Z",
-     "shell.execute_reply": "2024-12-09T16:38:25.558511Z"
+     "iopub.execute_input": "2024-12-10T04:12:22.273058Z",
+     "iopub.status.busy": "2024-12-10T04:12:22.272804Z",
+     "iopub.status.idle": "2024-12-10T04:12:22.284080Z",
+     "shell.execute_reply": "2024-12-10T04:12:22.283299Z"
     },
     "id": "tqMhUFoBIc3B",
     "outputId": "1405fd59-1374-4d5d-8e3a-5e7a45c79bba",
     "papermill": {
-     "duration": 0.0251,
-     "end_time": "2024-12-09T16:38:25.560899",
+     "duration": 0.024782,
+     "end_time": "2024-12-10T04:12:22.285772",
      "exception": false,
-     "start_time": "2024-12-09T16:38:25.535799",
+     "start_time": "2024-12-10T04:12:22.260990",
      "status": "completed"
     },
     "tags": []
@@ -740,14 +740,14 @@
   },
   {
    "cell_type": "markdown",
-   "id": "cfbc9526",
+   "id": "1fbb45c5",
    "metadata": {
     "id": "ukhXifxzTaj9",
     "papermill": {
-     "duration": 0.010479,
-     "end_time": "2024-12-09T16:38:25.582079",
+     "duration": 0.010847,
+     "end_time": "2024-12-10T04:12:22.307576",
      "exception": false,
-     "start_time": "2024-12-09T16:38:25.571600",
+     "start_time": "2024-12-10T04:12:22.296729",
      "status": "completed"
     },
     "tags": []
@@ -759,21 +759,21 @@
   {
    "cell_type": "code",
    "execution_count": 7,
-   "id": "5d9f5ac9",
+   "id": "ee025c5d",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-12-09T16:38:25.604929Z",
-     "iopub.status.busy": "2024-12-09T16:38:25.604630Z",
-     "iopub.status.idle": "2024-12-09T22:10:32.017634Z",
-     "shell.execute_reply": "2024-12-09T22:10:32.016753Z"
+     "iopub.execute_input": "2024-12-10T04:12:22.330985Z",
+     "iopub.status.busy": "2024-12-10T04:12:22.330288Z",
+     "iopub.status.idle": "2024-12-10T05:07:00.115185Z",
+     "shell.execute_reply": "2024-12-10T05:07:00.114324Z"
     },
     "id": "Ymqd_W21y3NK",
     "outputId": "5ca97a2f-f57c-46ee-8f53-f00181ccea90",
     "papermill": {
-     "duration": 19926.439225,
-     "end_time": "2024-12-09T22:10:32.032081",
+     "duration": 3277.80921,
+     "end_time": "2024-12-10T05:07:00.127882",
      "exception": false,
-     "start_time": "2024-12-09T16:38:25.592856",
+     "start_time": "2024-12-10T04:12:22.318672",
      "status": "completed"
     },
     "scrolled": true,
@@ -784,47 +784,6 @@
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "sbj =  1\n",
-      "Total trials loaded: 200\n",
-      "Shape of X: (200, 64, 3584), Shape of y: (200,)\n",
-      "Resampling from 512 to 128.0 Hz.\n",
-      "(200, 64, 320, 1) tamaño\n",
-      "[ 25 107  31 188  83  86 111  75 191 170  76  12 100 154  73   6  66  54\n",
-      " 104 162  91  51 132  39 105  40 134 141  45 116 185 178 127 150 194  69\n",
-      " 133  90  64  49]\n",
-      "(160, 64, 320, 1) valor total de X:\n",
-      "(40, 64, 320, 1) valor total de X_val:\n",
-      "(160, 64, 320, 1)\n",
-      "(160,)\n",
-      "[175 156   7 191  76 117  54  16   2  80  41 118  78  90 100 160 149 161\n",
-      " 171  18  82 182 101  61  91 167 144 133 196  67  22  57 137 136  98 111\n",
-      "  89  13 178  97]\n",
-      "(160, 64, 320, 1) valor total de X:\n",
-      "(40, 64, 320, 1) valor total de X_val:\n",
-      "(160, 64, 320, 1)\n",
-      "(160,)\n",
-      "[ 58 152 153  54 171  88 170  45  21  84 181  73 150  22  29 184  25 120\n",
-      " 159 114 116 187   6 149  83  33  50 139 104   9  48 132 112  35  76 163\n",
-      "   8 140 192  62]\n",
-      "(160, 64, 320, 1) valor total de X:\n",
-      "(40, 64, 320, 1) valor total de X_val:\n",
-      "(160, 64, 320, 1)\n",
-      "(160,)\n",
-      "[ 20  14 169 144 196 105  67 182  36  39  97  57  64  58  79  90 188 194\n",
-      " 155 129 102 192  27   5 124 116  80 184 152 163  46 156 114 147 115  70\n",
-      "  19   2  51  42]\n",
-      "(160, 64, 320, 1) valor total de X:\n",
-      "(40, 64, 320, 1) valor total de X_val:\n",
-      "(160, 64, 320, 1)\n",
-      "(160,)\n",
-      "[123  35  89 183   0  80  75 134  10  87 120  40 151  67  86  99 152  42\n",
-      "  20 176 162 169  41 190  56   9 142 146 112 108   3 128 198 106  55  29\n",
-      "  18 164 113 179]\n",
-      "(160, 64, 320, 1) valor total de X:\n",
-      "(40, 64, 320, 1) valor total de X_val:\n",
-      "(160, 64, 320, 1)\n",
-      "(160,)\n",
-      "New Max Found!\n",
       "sbj =  3\n",
       "Total trials loaded: 200\n",
       "Shape of X: (200, 64, 3584), Shape of y: (200,)\n",
@@ -865,165 +824,6 @@
       "(40, 64, 320, 1) valor total de X_val:\n",
       "(160, 64, 320, 1)\n",
       "(160,)\n",
-      "New Max Found!\n",
-      "sbj =  4\n",
-      "Total trials loaded: 200\n",
-      "Shape of X: (200, 64, 3584), Shape of y: (200,)\n",
-      "Resampling from 512 to 128.0 Hz.\n",
-      "(200, 64, 320, 1) tamaño\n",
-      "[ 25 107  31 188  83  86 111  75 191 170  76  12 100 154  73   6  66  54\n",
-      " 104 162  91  51 132  39 105  40 134 141  45 116 185 178 127 150 194  69\n",
-      " 133  90  64  49]\n",
-      "(160, 64, 320, 1) valor total de X:\n",
-      "(40, 64, 320, 1) valor total de X_val:\n",
-      "(160, 64, 320, 1)\n",
-      "(160,)\n",
-      "[175 156   7 191  76 117  54  16   2  80  41 118  78  90 100 160 149 161\n",
-      " 171  18  82 182 101  61  91 167 144 133 196  67  22  57 137 136  98 111\n",
-      "  89  13 178  97]\n",
-      "(160, 64, 320, 1) valor total de X:\n",
-      "(40, 64, 320, 1) valor total de X_val:\n",
-      "(160, 64, 320, 1)\n",
-      "(160,)\n",
-      "[ 58 152 153  54 171  88 170  45  21  84 181  73 150  22  29 184  25 120\n",
-      " 159 114 116 187   6 149  83  33  50 139 104   9  48 132 112  35  76 163\n",
-      "   8 140 192  62]\n",
-      "(160, 64, 320, 1) valor total de X:\n",
-      "(40, 64, 320, 1) valor total de X_val:\n",
-      "(160, 64, 320, 1)\n",
-      "(160,)\n",
-      "[ 20  14 169 144 196 105  67 182  36  39  97  57  64  58  79  90 188 194\n",
-      " 155 129 102 192  27   5 124 116  80 184 152 163  46 156 114 147 115  70\n",
-      "  19   2  51  42]\n",
-      "(160, 64, 320, 1) valor total de X:\n",
-      "(40, 64, 320, 1) valor total de X_val:\n",
-      "(160, 64, 320, 1)\n",
-      "(160,)\n",
-      "[123  35  89 183   0  80  75 134  10  87 120  40 151  67  86  99 152  42\n",
-      "  20 176 162 169  41 190  56   9 142 146 112 108   3 128 198 106  55  29\n",
-      "  18 164 113 179]\n",
-      "(160, 64, 320, 1) valor total de X:\n",
-      "(40, 64, 320, 1) valor total de X_val:\n",
-      "(160, 64, 320, 1)\n",
-      "(160,)\n",
-      "New Max Found!\n",
-      "sbj =  5\n",
-      "Total trials loaded: 199\n",
-      "Shape of X: (199, 64, 3584), Shape of y: (199,)\n",
-      "Resampling from 512 to 128.0 Hz.\n",
-      "(199, 64, 320, 1) tamaño\n",
-      "[ 31 161 177 133  76  75 103  12  83 110   6  66  99  85  73  54 152 149\n",
-      " 122  39  40 184  45 140 141 137  25  51 132 128 134 153 198 131  90  64\n",
-      "  49 126  91  69]\n",
-      "(159, 64, 320, 1) valor total de X:\n",
-      "(40, 64, 320, 1) valor total de X_val:\n",
-      "(159, 64, 320, 1)\n",
-      "(159,)\n",
-      "[ 99  95  57  92 135  90 136  18   7 148 155 116 132  91 189 174 159  78\n",
-      " 143 110  54 117 170 166  80   2  67 177  86  16  61 194  13 181  22  32\n",
-      " 198 160  38  21]\n",
-      "(159, 64, 320, 1) valor total de X:\n",
-      "(40, 64, 320, 1) valor total de X_val:\n",
-      "(159, 64, 320, 1)\n",
-      "(159,)\n",
-      "[ 33 151 152  83 170   5 169  21  12  29 180   6 149   9  48 183  54 119\n",
-      " 158 113 115 186   8 148  61  50  88 138 103  45  47 131 111  76  62 162\n",
-      "  18 139 191  57]\n",
-      "(159, 64, 320, 1) valor total de X:\n",
-      "(40, 64, 320, 1) valor total de X_val:\n",
-      "(159, 64, 320, 1)\n",
-      "(159,)\n",
-      "[123 181  96  27 133 151 193  14 154 155  36 143 114  79  39 183   5  80\n",
-      " 115 191  46 187  57  58 136  90 104  64  70  19  20   2  51  42 168  67\n",
-      " 101 128 113 162]\n",
-      "(159, 64, 320, 1) valor total de X:\n",
-      "(40, 64, 320, 1) valor total de X_val:\n",
-      "(159, 64, 320, 1)\n",
-      "(159,)\n",
-      "[ 56 163   5  40 133 145  17   1  19  42  65 131  32 159  41 171  79 141\n",
-      " 112  62 152  92  91 179 165 168  33 151 193 127  78  29  43 139 122 138\n",
-      " 119   2  81 123]\n",
-      "(159, 64, 320, 1) valor total de X:\n",
-      "(40, 64, 320, 1) valor total de X_val:\n",
-      "(159, 64, 320, 1)\n",
-      "(159,)\n",
-      "New Max Found!\n",
-      "sbj =  6\n",
-      "Total trials loaded: 178\n",
-      "Shape of X: (178, 64, 3584), Shape of y: (178,)\n",
-      "Resampling from 512 to 128.0 Hz.\n",
-      "(178, 64, 320, 1) tamaño\n",
-      "[125 131  49  39 136  66 109 121   6 133  64  12  76  83  98 160 177  40\n",
-      " 132 102 127 151  85  25 148  91  45 130  69  51  75  73  31 140  54  21]\n",
-      "(142, 64, 320, 1) valor total de X:\n",
-      "(36, 64, 320, 1) valor total de X_val:\n",
-      "(142, 64, 320, 1)\n",
-      "(142,)\n",
-      "[ 43  65   5  76 170 132 138   9  54  26 176  96 153  75  82  77  50 174\n",
-      "  41 129  29 115 177 140  86 116  36 142  92  69   2 141 118 154  66 156]\n",
-      "(142, 64, 320, 1) valor total de X:\n",
-      "(36, 64, 320, 1) valor total de X_val:\n",
-      "(142, 64, 320, 1)\n",
-      "(142,)\n",
-      "[ 15 152 104 120  27  52  56 139 133 148  45  78 107  69  46 106 143 160\n",
-      " 146  61   0 156  31 119  16  97  86  11 131 123  91  37  32 127  40  66]\n",
-      "(142, 64, 320, 1) valor total de X:\n",
-      "(36, 64, 320, 1) valor total de X_val:\n",
-      "(142, 64, 320, 1)\n",
-      "(142,)\n",
-      "[ 54 143  38  10 130 168 101  28 108  49  64 121 158  96 165 113  81   5\n",
-      "  11  31  12  29  90 128 104 150 167 131  20  33 147  34  82 166   6  15]\n",
-      "(142, 64, 320, 1) valor total de X:\n",
-      "(36, 64, 320, 1) valor total de X_val:\n",
-      "(142, 64, 320, 1)\n",
-      "(142,)\n",
-      "[ 75 159  86 147 138  17  89 112  20 128  11  67  68 175  19  41 118 111\n",
-      " 173  58  79 119  66 101 160  90 154  33 109  59  62  94 168  34  24 100]\n",
-      "(142, 64, 320, 1) valor total de X:\n",
-      "(36, 64, 320, 1) valor total de X_val:\n",
-      "(142, 64, 320, 1)\n",
-      "(142,)\n",
-      "New Max Found!\n",
-      "sbj =  7\n",
-      "Total trials loaded: 240\n",
-      "Shape of X: (240, 64, 3584), Shape of y: (240,)\n",
-      "Resampling from 512 to 128.0 Hz.\n",
-      "(240, 64, 320, 1) tamaño\n",
-      "[152  76 228 122  85 103  31 120 102 222 209 129 163 142  75  49  45  69\n",
-      " 151  73 236  83  51 135   6  91 154 231 186 104 182  66  12 168  40 190\n",
-      "  90 181 230  54  25 176 109 162 121  39 198  64]\n",
-      "(192, 64, 320, 1) valor total de X:\n",
-      "(48, 64, 320, 1) valor total de X_val:\n",
-      "(192, 64, 320, 1)\n",
-      "(192,)\n",
-      "[238 116  61  84  44 168 107 184  86 207 201 156 209 225   1 232  15  48\n",
-      "  35 175 206  77 186  11 152  71 157 140  33 104  24  53   9 171 100 127\n",
-      " 155 192 229 105 103  41  51 167  56 212 172 169]\n",
-      "(192, 64, 320, 1) valor total de X:\n",
-      "(48, 64, 320, 1) valor total de X_val:\n",
-      "(192, 64, 320, 1)\n",
-      "(192,)\n",
-      "[134  50 170 234  58  28  79  52 215   1  21 160 100  67 230 159 177 202\n",
-      " 106  15  43 220 139  57 224 223 219 226 172 165 228 120 194  38  36  82\n",
-      " 128 143  34 114  33 217  19   2 130  30  73  41]\n",
-      "(192, 64, 320, 1) valor total de X:\n",
-      "(48, 64, 320, 1) valor total de X_val:\n",
-      "(192, 64, 320, 1)\n",
-      "(192,)\n",
-      "[175 117 237  59 216 225  75 172  82  79  76  99  48 134  14 147 232  68\n",
-      " 169 187 102 239 235  49 148 167 104  85 180 227  33 154 113 183  67 155\n",
-      " 159  50 213  86 140 110  89 115 157 181  34   1]\n",
-      "(192, 64, 320, 1) valor total de X:\n",
-      "(48, 64, 320, 1) valor total de X_val:\n",
-      "(192, 64, 320, 1)\n",
-      "(192,)\n",
-      "[144  66  63  73 206  74 192   2 213 129 132 152  84  93 173 195 101   4\n",
-      " 214   5 223 218 211  36  21 170  23 114 112  67 175  40 190 207 181   8\n",
-      "  12  62 161 143  48  46 186 225 209 216  58  52]\n",
-      "(192, 64, 320, 1) valor total de X:\n",
-      "(48, 64, 320, 1) valor total de X_val:\n",
-      "(192, 64, 320, 1)\n",
-      "(192,)\n",
       "New Max Found!\n"
      ]
     }
@@ -1031,7 +831,7 @@
    "source": [
     "from pickle import dump\n",
     "\n",
-    "subjects = [1,3,4,5,6,7]\n",
+    "subjects = [3]\n",
     "\n",
     "for sbj in subjects[:]:\n",
     "  print('sbj = ', sbj)\n",
@@ -1044,21 +844,21 @@
   {
    "cell_type": "code",
    "execution_count": 8,
-   "id": "c0b87942",
+   "id": "1e8bb984",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-12-09T22:10:32.058821Z",
-     "iopub.status.busy": "2024-12-09T22:10:32.058537Z",
-     "iopub.status.idle": "2024-12-09T22:10:34.150406Z",
-     "shell.execute_reply": "2024-12-09T22:10:34.149498Z"
+     "iopub.execute_input": "2024-12-10T05:07:00.151690Z",
+     "iopub.status.busy": "2024-12-10T05:07:00.151408Z",
+     "iopub.status.idle": "2024-12-10T05:07:02.239409Z",
+     "shell.execute_reply": "2024-12-10T05:07:02.238444Z"
     },
     "id": "V7-P0xjwzXVX",
     "outputId": "270dceef-351d-48d1-f71e-2c3367c7fdac",
     "papermill": {
-     "duration": 2.107514,
-     "end_time": "2024-12-09T22:10:34.152450",
+     "duration": 2.102445,
+     "end_time": "2024-12-10T05:07:02.241631",
      "exception": false,
-     "start_time": "2024-12-09T22:10:32.044936",
+     "start_time": "2024-12-10T05:07:00.139186",
      "status": "completed"
     },
     "tags": []
@@ -1076,18 +876,8 @@
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "  adding: sbj1.h5 (deflated 75%)\r\n",
       "  adding: sbj3.h5 (deflated 75%)\r\n",
-      "  adding: sbj4.h5 (deflated 75%)\r\n",
-      "  adding: sbj5.h5 (deflated 75%)\r\n",
-      "  adding: sbj6.h5 (deflated 75%)\r\n",
-      "  adding: sbj7.h5 (deflated 75%)\r\n",
-      "  adding: sbj1.txt (deflated 51%)\r\n",
-      "  adding: sbj3.txt (deflated 55%)\r\n",
-      "  adding: sbj4.txt (deflated 55%)\r\n",
-      "  adding: sbj5.txt (deflated 49%)\r\n",
-      "  adding: sbj6.txt (deflated 47%)\r\n",
-      "  adding: sbj7.txt (deflated 47%)\r\n"
+      "  adding: sbj3.txt (deflated 55%)\r\n"
      ]
     }
    ],
@@ -1099,19 +889,19 @@
   {
    "cell_type": "code",
    "execution_count": 9,
-   "id": "f29ede5d",
+   "id": "d4ce46ea",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-12-09T22:10:34.180503Z",
-     "iopub.status.busy": "2024-12-09T22:10:34.179751Z",
-     "iopub.status.idle": "2024-12-09T22:10:34.183840Z",
-     "shell.execute_reply": "2024-12-09T22:10:34.183040Z"
+     "iopub.execute_input": "2024-12-10T05:07:02.266494Z",
+     "iopub.status.busy": "2024-12-10T05:07:02.266181Z",
+     "iopub.status.idle": "2024-12-10T05:07:02.270477Z",
+     "shell.execute_reply": "2024-12-10T05:07:02.269672Z"
     },
     "papermill": {
-     "duration": 0.0198,
-     "end_time": "2024-12-09T22:10:34.185599",
+     "duration": 0.018656,
+     "end_time": "2024-12-10T05:07:02.272262",
      "exception": false,
-     "start_time": "2024-12-09T22:10:34.165799",
+     "start_time": "2024-12-10T05:07:02.253606",
      "status": "completed"
     },
     "tags": []
@@ -1127,19 +917,19 @@
   {
    "cell_type": "code",
    "execution_count": 10,
-   "id": "61a9228c",
+   "id": "da802770",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-12-09T22:10:34.212619Z",
-     "iopub.status.busy": "2024-12-09T22:10:34.211991Z",
-     "iopub.status.idle": "2024-12-09T22:10:34.215577Z",
-     "shell.execute_reply": "2024-12-09T22:10:34.214834Z"
+     "iopub.execute_input": "2024-12-10T05:07:02.296196Z",
+     "iopub.status.busy": "2024-12-10T05:07:02.295860Z",
+     "iopub.status.idle": "2024-12-10T05:07:02.299861Z",
+     "shell.execute_reply": "2024-12-10T05:07:02.299037Z"
     },
     "papermill": {
-     "duration": 0.018608,
-     "end_time": "2024-12-09T22:10:34.217153",
+     "duration": 0.017769,
+     "end_time": "2024-12-10T05:07:02.301382",
      "exception": false,
-     "start_time": "2024-12-09T22:10:34.198545",
+     "start_time": "2024-12-10T05:07:02.283613",
      "status": "completed"
     },
     "tags": []
@@ -1152,19 +942,19 @@
   {
    "cell_type": "code",
    "execution_count": 11,
-   "id": "5a968545",
+   "id": "c55032a1",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-12-09T22:10:34.244048Z",
-     "iopub.status.busy": "2024-12-09T22:10:34.243803Z",
-     "iopub.status.idle": "2024-12-09T22:10:34.247250Z",
-     "shell.execute_reply": "2024-12-09T22:10:34.246441Z"
+     "iopub.execute_input": "2024-12-10T05:07:02.325844Z",
+     "iopub.status.busy": "2024-12-10T05:07:02.325299Z",
+     "iopub.status.idle": "2024-12-10T05:07:02.328679Z",
+     "shell.execute_reply": "2024-12-10T05:07:02.328021Z"
     },
     "papermill": {
-     "duration": 0.018732,
-     "end_time": "2024-12-09T22:10:34.248885",
+     "duration": 0.017174,
+     "end_time": "2024-12-10T05:07:02.330218",
      "exception": false,
-     "start_time": "2024-12-09T22:10:34.230153",
+     "start_time": "2024-12-10T05:07:02.313044",
      "status": "completed"
     },
     "tags": []
@@ -1178,19 +968,19 @@
   {
    "cell_type": "code",
    "execution_count": 12,
-   "id": "bf19c11f",
+   "id": "1d228c9a",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-12-09T22:10:34.275415Z",
-     "iopub.status.busy": "2024-12-09T22:10:34.275134Z",
-     "iopub.status.idle": "2024-12-09T22:10:34.278466Z",
-     "shell.execute_reply": "2024-12-09T22:10:34.277806Z"
+     "iopub.execute_input": "2024-12-10T05:07:02.354201Z",
+     "iopub.status.busy": "2024-12-10T05:07:02.353959Z",
+     "iopub.status.idle": "2024-12-10T05:07:02.357148Z",
+     "shell.execute_reply": "2024-12-10T05:07:02.356525Z"
     },
     "papermill": {
-     "duration": 0.018437,
-     "end_time": "2024-12-09T22:10:34.280044",
+     "duration": 0.016867,
+     "end_time": "2024-12-10T05:07:02.358698",
      "exception": false,
-     "start_time": "2024-12-09T22:10:34.261607",
+     "start_time": "2024-12-10T05:07:02.341831",
      "status": "completed"
     },
     "tags": []
@@ -1251,14 +1041,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 20071.064563,
-   "end_time": "2024-12-09T22:10:36.115012",
+   "duration": 3420.555996,
+   "end_time": "2024-12-10T05:07:04.842261",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2024-12-09T16:36:05.050449",
+   "start_time": "2024-12-10T04:10:04.286265",
    "version": "2.6.0"
   }
  },
