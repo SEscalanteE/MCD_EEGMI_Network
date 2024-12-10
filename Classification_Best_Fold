@@ -2,14 +2,14 @@
  "cells": [
   {
    "cell_type": "markdown",
-   "id": "f12e2d40",
+   "id": "48ebd56b",
    "metadata": {
     "id": "x9LNzEYERaH2",
     "papermill": {
-     "duration": 0.003469,
-     "end_time": "2024-12-10T04:10:06.709848",
+     "duration": 0.003759,
+     "end_time": "2024-12-10T04:09:58.695027",
      "exception": false,
-     "start_time": "2024-12-10T04:10:06.706379",
+     "start_time": "2024-12-10T04:09:58.691268",
      "status": "completed"
     },
     "tags": []
@@ -21,19 +21,19 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "cd7e2163",
+   "id": "df6cb85e",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-12-10T04:10:06.717435Z",
-     "iopub.status.busy": "2024-12-10T04:10:06.717072Z",
-     "iopub.status.idle": "2024-12-10T04:10:07.734252Z",
-     "shell.execute_reply": "2024-12-10T04:10:07.733281Z"
+     "iopub.execute_input": "2024-12-10T04:09:58.702689Z",
+     "iopub.status.busy": "2024-12-10T04:09:58.702352Z",
+     "iopub.status.idle": "2024-12-10T04:09:59.728414Z",
+     "shell.execute_reply": "2024-12-10T04:09:59.727269Z"
     },
     "papermill": {
-     "duration": 1.023246,
-     "end_time": "2024-12-10T04:10:07.736279",
+     "duration": 1.032333,
+     "end_time": "2024-12-10T04:09:59.730565",
      "exception": false,
-     "start_time": "2024-12-10T04:10:06.713033",
+     "start_time": "2024-12-10T04:09:58.698232",
      "status": "completed"
     },
     "tags": []
@@ -43,7 +43,7 @@
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "GPU 0: Tesla P100-PCIE-16GB (UUID: GPU-b34209ce-4030-c799-fd7f-6ad7932eb542)\r\n"
+      "GPU 0: Tesla P100-PCIE-16GB (UUID: GPU-9980bc6a-f963-0dd4-f635-fb3e79772d88)\r\n"
      ]
     }
    ],
@@ -54,20 +54,20 @@
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "d0ef76ea",
+   "id": "b8afcee8",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-12-10T04:10:07.744283Z",
-     "iopub.status.busy": "2024-12-10T04:10:07.743920Z",
-     "iopub.status.idle": "2024-12-10T04:11:13.370843Z",
-     "shell.execute_reply": "2024-12-10T04:11:13.369852Z"
+     "iopub.execute_input": "2024-12-10T04:09:59.738497Z",
+     "iopub.status.busy": "2024-12-10T04:09:59.738195Z",
+     "iopub.status.idle": "2024-12-10T04:11:05.817587Z",
+     "shell.execute_reply": "2024-12-10T04:11:05.816330Z"
     },
     "id": "K0oS6IH7VTZX",
     "papermill": {
-     "duration": 65.633235,
-     "end_time": "2024-12-10T04:11:13.372928",
+     "duration": 66.085927,
+     "end_time": "2024-12-10T04:11:05.819891",
      "exception": false,
-     "start_time": "2024-12-10T04:10:07.739693",
+     "start_time": "2024-12-10T04:09:59.733964",
      "status": "completed"
     },
     "tags": []
@@ -87,19 +87,19 @@
   {
    "cell_type": "code",
    "execution_count": 3,
-   "id": "f1f07a90",
+   "id": "313787d0",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-12-10T04:11:13.380687Z",
-     "iopub.status.busy": "2024-12-10T04:11:13.380409Z",
-     "iopub.status.idle": "2024-12-10T04:12:15.080449Z",
-     "shell.execute_reply": "2024-12-10T04:12:15.079344Z"
+     "iopub.execute_input": "2024-12-10T04:11:05.828111Z",
+     "iopub.status.busy": "2024-12-10T04:11:05.827757Z",
+     "iopub.status.idle": "2024-12-10T04:12:08.477348Z",
+     "shell.execute_reply": "2024-12-10T04:12:08.476171Z"
     },
     "papermill": {
-     "duration": 61.706175,
-     "end_time": "2024-12-10T04:12:15.082499",
+     "duration": 62.656532,
+     "end_time": "2024-12-10T04:12:08.480027",
      "exception": false,
-     "start_time": "2024-12-10T04:11:13.376324",
+     "start_time": "2024-12-10T04:11:05.823495",
      "status": "completed"
     },
     "tags": []
@@ -168,22 +168,22 @@
       "Requirement already satisfied: pyasn1<0.7.0,>=0.4.6 in /opt/conda/lib/python3.10/site-packages (from pyasn1-modules>=0.2.1->google-auth<3,>=1.6.3->tensorboard<2.9,>=2.8->tensorflow==2.8.2) (0.6.0)\r\n",
       "Requirement already satisfied: oauthlib>=3.0.0 in /opt/conda/lib/python3.10/site-packages (from requests-oauthlib>=0.7.0->google-auth-oauthlib<0.5,>=0.4.1->tensorboard<2.9,>=2.8->tensorflow==2.8.2) (3.2.2)\r\n",
       "Downloading tensorflow-2.8.2-cp310-cp310-manylinux2010_x86_64.whl (498.0 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m498.0/498.0 MB\u001b[0m \u001b[31m3.3 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m498.0/498.0 MB\u001b[0m \u001b[31m3.4 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading keras-2.8.0-py2.py3-none-any.whl (1.4 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m1.4/1.4 MB\u001b[0m \u001b[31m7.2 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m1.4/1.4 MB\u001b[0m \u001b[31m52.8 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading Keras_Preprocessing-1.1.2-py2.py3-none-any.whl (42 kB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m42.6/42.6 kB\u001b[0m \u001b[31m2.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m42.6/42.6 kB\u001b[0m \u001b[31m2.3 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading protobuf-3.19.6-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.1 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m1.1/1.1 MB\u001b[0m \u001b[31m52.5 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m1.1/1.1 MB\u001b[0m \u001b[31m49.1 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading tensorboard-2.8.0-py3-none-any.whl (5.8 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m5.8/5.8 MB\u001b[0m \u001b[31m98.0 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m5.8/5.8 MB\u001b[0m \u001b[31m91.1 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading tensorflow_estimator-2.8.0-py2.py3-none-any.whl (462 kB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m462.3/462.3 kB\u001b[0m \u001b[31m28.1 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m462.3/462.3 kB\u001b[0m \u001b[31m25.2 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading google_auth_oauthlib-0.4.6-py2.py3-none-any.whl (18 kB)\r\n",
       "Downloading tensorboard_data_server-0.6.1-py3-none-manylinux2010_x86_64.whl (4.9 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m4.9/4.9 MB\u001b[0m \u001b[31m93.8 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m4.9/4.9 MB\u001b[0m \u001b[31m90.8 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading tensorboard_plugin_wit-1.8.1-py3-none-any.whl (781 kB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m781.3/781.3 kB\u001b[0m \u001b[31m41.9 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m781.3/781.3 kB\u001b[0m \u001b[31m39.0 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hInstalling collected packages: tensorflow-estimator, tensorboard-plugin-wit, keras, tensorboard-data-server, protobuf, keras-preprocessing, google-auth-oauthlib, tensorboard, tensorflow\r\n",
       "  Attempting uninstall: tensorflow-estimator\r\n",
       "    Found existing installation: tensorflow-estimator 2.15.0\r\n",
@@ -245,13 +245,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "ed63baa3",
+   "id": "3877dd7e",
    "metadata": {
     "papermill": {
-     "duration": 0.010906,
-     "end_time": "2024-12-10T04:12:15.105147",
+     "duration": 0.014101,
+     "end_time": "2024-12-10T04:12:08.515816",
      "exception": false,
-     "start_time": "2024-12-10T04:12:15.094241",
+     "start_time": "2024-12-10T04:12:08.501715",
      "status": "completed"
     },
     "tags": []
@@ -263,20 +263,20 @@
   {
    "cell_type": "code",
    "execution_count": 4,
-   "id": "e9afddaa",
+   "id": "2616d0dd",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-12-10T04:12:15.129435Z",
-     "iopub.status.busy": "2024-12-10T04:12:15.129070Z",
-     "iopub.status.idle": "2024-12-10T04:12:22.196584Z",
-     "shell.execute_reply": "2024-12-10T04:12:22.195625Z"
+     "iopub.execute_input": "2024-12-10T04:12:08.543861Z",
+     "iopub.status.busy": "2024-12-10T04:12:08.543450Z",
+     "iopub.status.idle": "2024-12-10T04:12:15.207638Z",
+     "shell.execute_reply": "2024-12-10T04:12:15.206629Z"
     },
     "id": "yE1sbHYQVbBq",
     "papermill": {
-     "duration": 7.082436,
-     "end_time": "2024-12-10T04:12:22.198652",
+     "duration": 6.682515,
+     "end_time": "2024-12-10T04:12:15.209712",
      "exception": false,
-     "start_time": "2024-12-10T04:12:15.116216",
+     "start_time": "2024-12-10T04:12:08.527197",
      "status": "completed"
     },
     "tags": []
@@ -585,14 +585,14 @@
   },
   {
    "cell_type": "markdown",
-   "id": "0113336a",
+   "id": "ecc985de",
    "metadata": {
     "id": "uBAeW6J5S68g",
     "papermill": {
-     "duration": 0.010757,
-     "end_time": "2024-12-10T04:12:22.221170",
+     "duration": 0.011021,
+     "end_time": "2024-12-10T04:12:15.232858",
      "exception": false,
-     "start_time": "2024-12-10T04:12:22.210413",
+     "start_time": "2024-12-10T04:12:15.221837",
      "status": "completed"
     },
     "tags": []
@@ -604,20 +604,20 @@
   {
    "cell_type": "code",
    "execution_count": 5,
-   "id": "ef907c2a",
+   "id": "6c0ceece",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-12-10T04:12:22.245007Z",
-     "iopub.status.busy": "2024-12-10T04:12:22.244005Z",
-     "iopub.status.idle": "2024-12-10T04:12:22.248423Z",
-     "shell.execute_reply": "2024-12-10T04:12:22.247706Z"
+     "iopub.execute_input": "2024-12-10T04:12:15.256603Z",
+     "iopub.status.busy": "2024-12-10T04:12:15.255916Z",
+     "iopub.status.idle": "2024-12-10T04:12:15.260393Z",
+     "shell.execute_reply": "2024-12-10T04:12:15.259723Z"
     },
     "id": "2I3IQnNSS9-a",
     "papermill": {
-     "duration": 0.017875,
-     "end_time": "2024-12-10T04:12:22.250061",
+     "duration": 0.017968,
+     "end_time": "2024-12-10T04:12:15.261860",
      "exception": false,
-     "start_time": "2024-12-10T04:12:22.232186",
+     "start_time": "2024-12-10T04:12:15.243892",
      "status": "completed"
     },
     "tags": []
@@ -637,21 +637,21 @@
   {
    "cell_type": "code",
    "execution_count": 6,
-   "id": "8557d351",
+   "id": "dd8fe349",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-12-10T04:12:22.273058Z",
-     "iopub.status.busy": "2024-12-10T04:12:22.272804Z",
-     "iopub.status.idle": "2024-12-10T04:12:22.284080Z",
-     "shell.execute_reply": "2024-12-10T04:12:22.283299Z"
+     "iopub.execute_input": "2024-12-10T04:12:15.285065Z",
+     "iopub.status.busy": "2024-12-10T04:12:15.284777Z",
+     "iopub.status.idle": "2024-12-10T04:12:15.296742Z",
+     "shell.execute_reply": "2024-12-10T04:12:15.295973Z"
     },
     "id": "tqMhUFoBIc3B",
     "outputId": "1405fd59-1374-4d5d-8e3a-5e7a45c79bba",
     "papermill": {
-     "duration": 0.024782,
-     "end_time": "2024-12-10T04:12:22.285772",
+     "duration": 0.025354,
+     "end_time": "2024-12-10T04:12:15.298247",
      "exception": false,
-     "start_time": "2024-12-10T04:12:22.260990",
+     "start_time": "2024-12-10T04:12:15.272893",
      "status": "completed"
     },
     "tags": []
@@ -740,14 +740,14 @@
   },
   {
    "cell_type": "markdown",
-   "id": "1fbb45c5",
+   "id": "be8f3c0f",
    "metadata": {
     "id": "ukhXifxzTaj9",
     "papermill": {
-     "duration": 0.010847,
-     "end_time": "2024-12-10T04:12:22.307576",
+     "duration": 0.010843,
+     "end_time": "2024-12-10T04:12:15.320224",
      "exception": false,
-     "start_time": "2024-12-10T04:12:22.296729",
+     "start_time": "2024-12-10T04:12:15.309381",
      "status": "completed"
     },
     "tags": []
@@ -759,21 +759,21 @@
   {
    "cell_type": "code",
    "execution_count": 7,
-   "id": "ee025c5d",
+   "id": "41aeb712",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-12-10T04:12:22.330985Z",
-     "iopub.status.busy": "2024-12-10T04:12:22.330288Z",
-     "iopub.status.idle": "2024-12-10T05:07:00.115185Z",
-     "shell.execute_reply": "2024-12-10T05:07:00.114324Z"
+     "iopub.execute_input": "2024-12-10T04:12:15.343302Z",
+     "iopub.status.busy": "2024-12-10T04:12:15.343023Z",
+     "iopub.status.idle": "2024-12-10T05:07:15.849842Z",
+     "shell.execute_reply": "2024-12-10T05:07:15.848920Z"
     },
     "id": "Ymqd_W21y3NK",
     "outputId": "5ca97a2f-f57c-46ee-8f53-f00181ccea90",
     "papermill": {
-     "duration": 3277.80921,
-     "end_time": "2024-12-10T05:07:00.127882",
+     "duration": 3300.531843,
+     "end_time": "2024-12-10T05:07:15.863036",
      "exception": false,
-     "start_time": "2024-12-10T04:12:22.318672",
+     "start_time": "2024-12-10T04:12:15.331193",
      "status": "completed"
     },
     "scrolled": true,
@@ -784,7 +784,7 @@
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "sbj =  3\n",
+      "sbj =  1\n",
       "Total trials loaded: 200\n",
       "Shape of X: (200, 64, 3584), Shape of y: (200,)\n",
       "Resampling from 512 to 128.0 Hz.\n",
@@ -831,7 +831,7 @@
    "source": [
     "from pickle import dump\n",
     "\n",
-    "subjects = [3]\n",
+    "subjects = [1]\n",
     "\n",
     "for sbj in subjects[:]:\n",
     "  print('sbj = ', sbj)\n",
@@ -844,21 +844,21 @@
   {
    "cell_type": "code",
    "execution_count": 8,
-   "id": "1e8bb984",
+   "id": "b3c48a8f",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-12-10T05:07:00.151690Z",
-     "iopub.status.busy": "2024-12-10T05:07:00.151408Z",
-     "iopub.status.idle": "2024-12-10T05:07:02.239409Z",
-     "shell.execute_reply": "2024-12-10T05:07:02.238444Z"
+     "iopub.execute_input": "2024-12-10T05:07:15.887086Z",
+     "iopub.status.busy": "2024-12-10T05:07:15.886799Z",
+     "iopub.status.idle": "2024-12-10T05:07:17.955067Z",
+     "shell.execute_reply": "2024-12-10T05:07:17.954091Z"
     },
     "id": "V7-P0xjwzXVX",
     "outputId": "270dceef-351d-48d1-f71e-2c3367c7fdac",
     "papermill": {
-     "duration": 2.102445,
-     "end_time": "2024-12-10T05:07:02.241631",
+     "duration": 2.0826,
+     "end_time": "2024-12-10T05:07:17.957122",
      "exception": false,
-     "start_time": "2024-12-10T05:07:00.139186",
+     "start_time": "2024-12-10T05:07:15.874522",
      "status": "completed"
     },
     "tags": []
@@ -876,8 +876,8 @@
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "  adding: sbj3.h5 (deflated 75%)\r\n",
-      "  adding: sbj3.txt (deflated 55%)\r\n"
+      "  adding: sbj1.h5 (deflated 75%)\r\n",
+      "  adding: sbj1.txt (deflated 51%)\r\n"
      ]
     }
    ],
@@ -889,19 +889,19 @@
   {
    "cell_type": "code",
    "execution_count": 9,
-   "id": "d4ce46ea",
+   "id": "29b2e2e6",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-12-10T05:07:02.266494Z",
-     "iopub.status.busy": "2024-12-10T05:07:02.266181Z",
-     "iopub.status.idle": "2024-12-10T05:07:02.270477Z",
-     "shell.execute_reply": "2024-12-10T05:07:02.269672Z"
+     "iopub.execute_input": "2024-12-10T05:07:17.982268Z",
+     "iopub.status.busy": "2024-12-10T05:07:17.981965Z",
+     "iopub.status.idle": "2024-12-10T05:07:17.985915Z",
+     "shell.execute_reply": "2024-12-10T05:07:17.985217Z"
     },
     "papermill": {
-     "duration": 0.018656,
-     "end_time": "2024-12-10T05:07:02.272262",
+     "duration": 0.018438,
+     "end_time": "2024-12-10T05:07:17.987647",
      "exception": false,
-     "start_time": "2024-12-10T05:07:02.253606",
+     "start_time": "2024-12-10T05:07:17.969209",
      "status": "completed"
     },
     "tags": []
@@ -917,19 +917,19 @@
   {
    "cell_type": "code",
    "execution_count": 10,
-   "id": "da802770",
+   "id": "a244fb09",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-12-10T05:07:02.296196Z",
-     "iopub.status.busy": "2024-12-10T05:07:02.295860Z",
-     "iopub.status.idle": "2024-12-10T05:07:02.299861Z",
-     "shell.execute_reply": "2024-12-10T05:07:02.299037Z"
+     "iopub.execute_input": "2024-12-10T05:07:18.012847Z",
+     "iopub.status.busy": "2024-12-10T05:07:18.012551Z",
+     "iopub.status.idle": "2024-12-10T05:07:18.016462Z",
+     "shell.execute_reply": "2024-12-10T05:07:18.015622Z"
     },
     "papermill": {
-     "duration": 0.017769,
-     "end_time": "2024-12-10T05:07:02.301382",
+     "duration": 0.01866,
+     "end_time": "2024-12-10T05:07:18.018037",
      "exception": false,
-     "start_time": "2024-12-10T05:07:02.283613",
+     "start_time": "2024-12-10T05:07:17.999377",
      "status": "completed"
     },
     "tags": []
@@ -942,19 +942,19 @@
   {
    "cell_type": "code",
    "execution_count": 11,
-   "id": "c55032a1",
+   "id": "900ae6e7",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-12-10T05:07:02.325844Z",
-     "iopub.status.busy": "2024-12-10T05:07:02.325299Z",
-     "iopub.status.idle": "2024-12-10T05:07:02.328679Z",
-     "shell.execute_reply": "2024-12-10T05:07:02.328021Z"
+     "iopub.execute_input": "2024-12-10T05:07:18.042765Z",
+     "iopub.status.busy": "2024-12-10T05:07:18.042496Z",
+     "iopub.status.idle": "2024-12-10T05:07:18.046078Z",
+     "shell.execute_reply": "2024-12-10T05:07:18.045228Z"
     },
     "papermill": {
-     "duration": 0.017174,
-     "end_time": "2024-12-10T05:07:02.330218",
+     "duration": 0.017876,
+     "end_time": "2024-12-10T05:07:18.047562",
      "exception": false,
-     "start_time": "2024-12-10T05:07:02.313044",
+     "start_time": "2024-12-10T05:07:18.029686",
      "status": "completed"
     },
     "tags": []
@@ -968,19 +968,19 @@
   {
    "cell_type": "code",
    "execution_count": 12,
-   "id": "1d228c9a",
+   "id": "53f87cbc",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-12-10T05:07:02.354201Z",
-     "iopub.status.busy": "2024-12-10T05:07:02.353959Z",
-     "iopub.status.idle": "2024-12-10T05:07:02.357148Z",
-     "shell.execute_reply": "2024-12-10T05:07:02.356525Z"
+     "iopub.execute_input": "2024-12-10T05:07:18.071761Z",
+     "iopub.status.busy": "2024-12-10T05:07:18.071503Z",
+     "iopub.status.idle": "2024-12-10T05:07:18.075061Z",
+     "shell.execute_reply": "2024-12-10T05:07:18.074255Z"
     },
     "papermill": {
-     "duration": 0.016867,
-     "end_time": "2024-12-10T05:07:02.358698",
+     "duration": 0.017323,
+     "end_time": "2024-12-10T05:07:18.076549",
      "exception": false,
-     "start_time": "2024-12-10T05:07:02.341831",
+     "start_time": "2024-12-10T05:07:18.059226",
      "status": "completed"
     },
     "tags": []
@@ -1041,14 +1041,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 3420.555996,
-   "end_time": "2024-12-10T05:07:04.842261",
+   "duration": 3444.53515,
+   "end_time": "2024-12-10T05:07:20.837312",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2024-12-10T04:10:04.286265",
+   "start_time": "2024-12-10T04:09:56.302162",
    "version": "2.6.0"
   }
  },
