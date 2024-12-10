@@ -2,14 +2,14 @@
  "cells": [
   {
    "cell_type": "markdown",
-   "id": "48ebd56b",
+   "id": "1c93abf4",
    "metadata": {
     "id": "x9LNzEYERaH2",
     "papermill": {
-     "duration": 0.003759,
-     "end_time": "2024-12-10T04:09:58.695027",
+     "duration": 0.004618,
+     "end_time": "2024-12-10T04:10:38.238595",
      "exception": false,
-     "start_time": "2024-12-10T04:09:58.691268",
+     "start_time": "2024-12-10T04:10:38.233977",
      "status": "completed"
     },
     "tags": []
@@ -21,19 +21,19 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "df6cb85e",
+   "id": "d6cdede9",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-12-10T04:09:58.702689Z",
-     "iopub.status.busy": "2024-12-10T04:09:58.702352Z",
-     "iopub.status.idle": "2024-12-10T04:09:59.728414Z",
-     "shell.execute_reply": "2024-12-10T04:09:59.727269Z"
+     "iopub.execute_input": "2024-12-10T04:10:38.248469Z",
+     "iopub.status.busy": "2024-12-10T04:10:38.247987Z",
+     "iopub.status.idle": "2024-12-10T04:10:39.324121Z",
+     "shell.execute_reply": "2024-12-10T04:10:39.322825Z"
     },
     "papermill": {
-     "duration": 1.032333,
-     "end_time": "2024-12-10T04:09:59.730565",
+     "duration": 1.083986,
+     "end_time": "2024-12-10T04:10:39.326697",
      "exception": false,
-     "start_time": "2024-12-10T04:09:58.698232",
+     "start_time": "2024-12-10T04:10:38.242711",
      "status": "completed"
     },
     "tags": []
@@ -43,7 +43,7 @@
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "GPU 0: Tesla P100-PCIE-16GB (UUID: GPU-9980bc6a-f963-0dd4-f635-fb3e79772d88)\r\n"
+      "/bin/bash: nvidia-smi: command not found\r\n"
      ]
     }
    ],
@@ -54,20 +54,20 @@
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "b8afcee8",
+   "id": "77f0a3ea",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-12-10T04:09:59.738497Z",
-     "iopub.status.busy": "2024-12-10T04:09:59.738195Z",
-     "iopub.status.idle": "2024-12-10T04:11:05.817587Z",
-     "shell.execute_reply": "2024-12-10T04:11:05.816330Z"
+     "iopub.execute_input": "2024-12-10T04:10:39.336856Z",
+     "iopub.status.busy": "2024-12-10T04:10:39.336445Z",
+     "iopub.status.idle": "2024-12-10T04:12:18.086317Z",
+     "shell.execute_reply": "2024-12-10T04:12:18.084704Z"
     },
     "id": "K0oS6IH7VTZX",
     "papermill": {
-     "duration": 66.085927,
-     "end_time": "2024-12-10T04:11:05.819891",
+     "duration": 98.758141,
+     "end_time": "2024-12-10T04:12:18.089128",
      "exception": false,
-     "start_time": "2024-12-10T04:09:59.733964",
+     "start_time": "2024-12-10T04:10:39.330987",
      "status": "completed"
     },
     "tags": []
@@ -87,19 +87,19 @@
   {
    "cell_type": "code",
    "execution_count": 3,
-   "id": "313787d0",
+   "id": "0024f2d5",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-12-10T04:11:05.828111Z",
-     "iopub.status.busy": "2024-12-10T04:11:05.827757Z",
-     "iopub.status.idle": "2024-12-10T04:12:08.477348Z",
-     "shell.execute_reply": "2024-12-10T04:12:08.476171Z"
+     "iopub.execute_input": "2024-12-10T04:12:18.100090Z",
+     "iopub.status.busy": "2024-12-10T04:12:18.099659Z",
+     "iopub.status.idle": "2024-12-10T04:13:45.400904Z",
+     "shell.execute_reply": "2024-12-10T04:13:45.398861Z"
     },
     "papermill": {
-     "duration": 62.656532,
-     "end_time": "2024-12-10T04:12:08.480027",
+     "duration": 87.310388,
+     "end_time": "2024-12-10T04:13:45.404063",
      "exception": false,
-     "start_time": "2024-12-10T04:11:05.823495",
+     "start_time": "2024-12-10T04:12:18.093675",
      "status": "completed"
     },
     "tags": []
@@ -112,11 +112,7 @@
       "\r\n",
       "\r\n",
       "\r\n",
-      "Package libcudnn8 is not available, but is referred to by another package.\r\n",
-      "This may mean that the package is missing, has been obsoleted, or\r\n",
-      "is only available from another source\r\n",
-      "\r\n",
-      "E: Version '8.1.0.77-1+cuda11.2' for 'libcudnn8' was not found\r\n",
+      "E: Unable to locate package libcudnn8\r\n",
       "Collecting tensorflow==2.8.2\r\n",
       "  Downloading tensorflow-2.8.2-cp310-cp310-manylinux2010_x86_64.whl.metadata (2.9 kB)\r\n",
       "Requirement already satisfied: absl-py>=0.4.0 in /opt/conda/lib/python3.10/site-packages (from tensorflow==2.8.2) (1.4.0)\r\n",
@@ -144,7 +140,7 @@
       "Collecting keras<2.9,>=2.8.0rc0 (from tensorflow==2.8.2)\r\n",
       "  Downloading keras-2.8.0-py2.py3-none-any.whl.metadata (1.3 kB)\r\n",
       "Requirement already satisfied: tensorflow-io-gcs-filesystem>=0.23.1 in /opt/conda/lib/python3.10/site-packages (from tensorflow==2.8.2) (0.37.0)\r\n",
-      "Requirement already satisfied: grpcio<2.0,>=1.24.3 in /opt/conda/lib/python3.10/site-packages (from tensorflow==2.8.2) (1.62.2)\r\n",
+      "Requirement already satisfied: grpcio<2.0,>=1.24.3 in /opt/conda/lib/python3.10/site-packages (from tensorflow==2.8.2) (1.64.1)\r\n",
       "Requirement already satisfied: wheel<1.0,>=0.23.0 in /opt/conda/lib/python3.10/site-packages (from astunparse>=1.6.0->tensorflow==2.8.2) (0.43.0)\r\n",
       "Requirement already satisfied: google-auth<3,>=1.6.3 in /opt/conda/lib/python3.10/site-packages (from tensorboard<2.9,>=2.8->tensorflow==2.8.2) (2.30.0)\r\n",
       "Collecting google-auth-oauthlib<0.5,>=0.4.1 (from tensorboard<2.9,>=2.8->tensorflow==2.8.2)\r\n",
@@ -168,22 +164,22 @@
       "Requirement already satisfied: pyasn1<0.7.0,>=0.4.6 in /opt/conda/lib/python3.10/site-packages (from pyasn1-modules>=0.2.1->google-auth<3,>=1.6.3->tensorboard<2.9,>=2.8->tensorflow==2.8.2) (0.6.0)\r\n",
       "Requirement already satisfied: oauthlib>=3.0.0 in /opt/conda/lib/python3.10/site-packages (from requests-oauthlib>=0.7.0->google-auth-oauthlib<0.5,>=0.4.1->tensorboard<2.9,>=2.8->tensorflow==2.8.2) (3.2.2)\r\n",
       "Downloading tensorflow-2.8.2-cp310-cp310-manylinux2010_x86_64.whl (498.0 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m498.0/498.0 MB\u001b[0m \u001b[31m3.4 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m498.0/498.0 MB\u001b[0m \u001b[31m3.3 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading keras-2.8.0-py2.py3-none-any.whl (1.4 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m1.4/1.4 MB\u001b[0m \u001b[31m52.8 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m1.4/1.4 MB\u001b[0m \u001b[31m43.0 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading Keras_Preprocessing-1.1.2-py2.py3-none-any.whl (42 kB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m42.6/42.6 kB\u001b[0m \u001b[31m2.3 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m42.6/42.6 kB\u001b[0m \u001b[31m2.1 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading protobuf-3.19.6-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.1 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m1.1/1.1 MB\u001b[0m \u001b[31m49.1 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m1.1/1.1 MB\u001b[0m \u001b[31m36.0 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading tensorboard-2.8.0-py3-none-any.whl (5.8 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m5.8/5.8 MB\u001b[0m \u001b[31m91.1 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m5.8/5.8 MB\u001b[0m \u001b[31m33.8 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading tensorflow_estimator-2.8.0-py2.py3-none-any.whl (462 kB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m462.3/462.3 kB\u001b[0m \u001b[31m25.2 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m462.3/462.3 kB\u001b[0m \u001b[31m21.7 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading google_auth_oauthlib-0.4.6-py2.py3-none-any.whl (18 kB)\r\n",
       "Downloading tensorboard_data_server-0.6.1-py3-none-manylinux2010_x86_64.whl (4.9 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m4.9/4.9 MB\u001b[0m \u001b[31m90.8 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m4.9/4.9 MB\u001b[0m \u001b[31m40.1 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading tensorboard_plugin_wit-1.8.1-py3-none-any.whl (781 kB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m781.3/781.3 kB\u001b[0m \u001b[31m39.0 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m781.3/781.3 kB\u001b[0m \u001b[31m33.5 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hInstalling collected packages: tensorflow-estimator, tensorboard-plugin-wit, keras, tensorboard-data-server, protobuf, keras-preprocessing, google-auth-oauthlib, tensorboard, tensorflow\r\n",
       "  Attempting uninstall: tensorflow-estimator\r\n",
       "    Found existing installation: tensorflow-estimator 2.15.0\r\n",
@@ -217,11 +213,10 @@
       "apache-beam 2.46.0 requires cloudpickle~=2.2.1, but you have cloudpickle 3.0.0 which is incompatible.\r\n",
       "apache-beam 2.46.0 requires dill<0.3.2,>=0.3.1.1, but you have dill 0.3.8 which is incompatible.\r\n",
       "apache-beam 2.46.0 requires numpy<1.25.0,>=1.14.3, but you have numpy 1.26.4 which is incompatible.\r\n",
-      "apache-beam 2.46.0 requires pyarrow<10.0.0,>=3.0.0, but you have pyarrow 16.1.0 which is incompatible.\r\n",
+      "apache-beam 2.46.0 requires pyarrow<10.0.0,>=3.0.0, but you have pyarrow 17.0.0 which is incompatible.\r\n",
       "google-ai-generativelanguage 0.6.10 requires protobuf!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,<6.0.0dev,>=3.20.2, but you have protobuf 3.19.6 which is incompatible.\r\n",
       "google-cloud-aiplatform 0.6.0a1 requires google-api-core[grpc]<2.0.0dev,>=1.22.2, but you have google-api-core 2.11.1 which is incompatible.\r\n",
       "google-cloud-automl 1.0.1 requires google-api-core[grpc]<2.0.0dev,>=1.14.0, but you have google-api-core 2.11.1 which is incompatible.\r\n",
-      "google-cloud-datastore 2.20.1 requires protobuf!=3.20.0,!=3.20.1,!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,<6.0.0dev,>=3.20.2, but you have protobuf 3.19.6 which is incompatible.\r\n",
       "google-cloud-language 2.14.0 requires protobuf!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,<6.0.0dev,>=3.20.2, but you have protobuf 3.19.6 which is incompatible.\r\n",
       "google-cloud-spanner 3.47.0 requires protobuf!=3.20.0,!=3.20.1,!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,<5.0.0dev,>=3.20.2, but you have protobuf 3.19.6 which is incompatible.\r\n",
       "google-cloud-videointelligence 2.13.5 requires protobuf!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,<6.0.0dev,>=3.20.2, but you have protobuf 3.19.6 which is incompatible.\r\n",
@@ -245,13 +240,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "3877dd7e",
+   "id": "8bd32e69",
    "metadata": {
     "papermill": {
-     "duration": 0.014101,
-     "end_time": "2024-12-10T04:12:08.515816",
+     "duration": 0.016253,
+     "end_time": "2024-12-10T04:13:45.437091",
      "exception": false,
-     "start_time": "2024-12-10T04:12:08.501715",
+     "start_time": "2024-12-10T04:13:45.420838",
      "status": "completed"
     },
     "tags": []
@@ -263,20 +258,20 @@
   {
    "cell_type": "code",
    "execution_count": 4,
-   "id": "2616d0dd",
+   "id": "f14ebd8b",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-12-10T04:12:08.543861Z",
-     "iopub.status.busy": "2024-12-10T04:12:08.543450Z",
-     "iopub.status.idle": "2024-12-10T04:12:15.207638Z",
-     "shell.execute_reply": "2024-12-10T04:12:15.206629Z"
+     "iopub.execute_input": "2024-12-10T04:13:45.473284Z",
+     "iopub.status.busy": "2024-12-10T04:13:45.472725Z",
+     "iopub.status.idle": "2024-12-10T04:13:54.606929Z",
+     "shell.execute_reply": "2024-12-10T04:13:54.605780Z"
     },
     "id": "yE1sbHYQVbBq",
     "papermill": {
-     "duration": 6.682515,
-     "end_time": "2024-12-10T04:12:15.209712",
+     "duration": 9.156363,
+     "end_time": "2024-12-10T04:13:54.609529",
      "exception": false,
-     "start_time": "2024-12-10T04:12:08.527197",
+     "start_time": "2024-12-10T04:13:45.453166",
      "status": "completed"
     },
     "tags": []
@@ -585,14 +580,14 @@
   },
   {
    "cell_type": "markdown",
-   "id": "ecc985de",
+   "id": "8e56d47a",
    "metadata": {
     "id": "uBAeW6J5S68g",
     "papermill": {
-     "duration": 0.011021,
-     "end_time": "2024-12-10T04:12:15.232858",
+     "duration": 0.015544,
+     "end_time": "2024-12-10T04:13:54.641268",
      "exception": false,
-     "start_time": "2024-12-10T04:12:15.221837",
+     "start_time": "2024-12-10T04:13:54.625724",
      "status": "completed"
     },
     "tags": []
@@ -604,20 +599,20 @@
   {
    "cell_type": "code",
    "execution_count": 5,
-   "id": "6c0ceece",
+   "id": "3e36b783",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-12-10T04:12:15.256603Z",
-     "iopub.status.busy": "2024-12-10T04:12:15.255916Z",
-     "iopub.status.idle": "2024-12-10T04:12:15.260393Z",
-     "shell.execute_reply": "2024-12-10T04:12:15.259723Z"
+     "iopub.execute_input": "2024-12-10T04:13:54.675112Z",
+     "iopub.status.busy": "2024-12-10T04:13:54.674346Z",
+     "iopub.status.idle": "2024-12-10T04:13:54.679928Z",
+     "shell.execute_reply": "2024-12-10T04:13:54.678865Z"
     },
     "id": "2I3IQnNSS9-a",
     "papermill": {
-     "duration": 0.017968,
-     "end_time": "2024-12-10T04:12:15.261860",
+     "duration": 0.025165,
+     "end_time": "2024-12-10T04:13:54.682245",
      "exception": false,
-     "start_time": "2024-12-10T04:12:15.243892",
+     "start_time": "2024-12-10T04:13:54.657080",
      "status": "completed"
     },
     "tags": []
@@ -637,21 +632,21 @@
   {
    "cell_type": "code",
    "execution_count": 6,
-   "id": "dd8fe349",
+   "id": "1f9654e1",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-12-10T04:12:15.285065Z",
-     "iopub.status.busy": "2024-12-10T04:12:15.284777Z",
-     "iopub.status.idle": "2024-12-10T04:12:15.296742Z",
-     "shell.execute_reply": "2024-12-10T04:12:15.295973Z"
+     "iopub.execute_input": "2024-12-10T04:13:54.715978Z",
+     "iopub.status.busy": "2024-12-10T04:13:54.715563Z",
+     "iopub.status.idle": "2024-12-10T04:13:54.730274Z",
+     "shell.execute_reply": "2024-12-10T04:13:54.729367Z"
     },
     "id": "tqMhUFoBIc3B",
     "outputId": "1405fd59-1374-4d5d-8e3a-5e7a45c79bba",
     "papermill": {
-     "duration": 0.025354,
-     "end_time": "2024-12-10T04:12:15.298247",
+     "duration": 0.034337,
+     "end_time": "2024-12-10T04:13:54.732520",
      "exception": false,
-     "start_time": "2024-12-10T04:12:15.272893",
+     "start_time": "2024-12-10T04:13:54.698183",
      "status": "completed"
     },
     "tags": []
@@ -740,14 +735,14 @@
   },
   {
    "cell_type": "markdown",
-   "id": "be8f3c0f",
+   "id": "5a64e1e3",
    "metadata": {
     "id": "ukhXifxzTaj9",
     "papermill": {
-     "duration": 0.010843,
-     "end_time": "2024-12-10T04:12:15.320224",
+     "duration": 0.015557,
+     "end_time": "2024-12-10T04:13:54.764167",
      "exception": false,
-     "start_time": "2024-12-10T04:12:15.309381",
+     "start_time": "2024-12-10T04:13:54.748610",
      "status": "completed"
     },
     "tags": []
@@ -759,21 +754,21 @@
   {
    "cell_type": "code",
    "execution_count": 7,
-   "id": "41aeb712",
+   "id": "bdddd06c",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-12-10T04:12:15.343302Z",
-     "iopub.status.busy": "2024-12-10T04:12:15.343023Z",
-     "iopub.status.idle": "2024-12-10T05:07:15.849842Z",
-     "shell.execute_reply": "2024-12-10T05:07:15.848920Z"
+     "iopub.execute_input": "2024-12-10T04:13:54.797642Z",
+     "iopub.status.busy": "2024-12-10T04:13:54.797282Z",
+     "iopub.status.idle": "2024-12-10T05:15:45.161245Z",
+     "shell.execute_reply": "2024-12-10T05:15:45.159977Z"
     },
     "id": "Ymqd_W21y3NK",
     "outputId": "5ca97a2f-f57c-46ee-8f53-f00181ccea90",
     "papermill": {
-     "duration": 3300.531843,
-     "end_time": "2024-12-10T05:07:15.863036",
+     "duration": 3710.401498,
+     "end_time": "2024-12-10T05:15:45.181609",
      "exception": false,
-     "start_time": "2024-12-10T04:12:15.331193",
+     "start_time": "2024-12-10T04:13:54.780111",
      "status": "completed"
     },
     "scrolled": true,
@@ -784,7 +779,7 @@
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "sbj =  1\n",
+      "sbj =  4\n",
       "Total trials loaded: 200\n",
       "Shape of X: (200, 64, 3584), Shape of y: (200,)\n",
       "Resampling from 512 to 128.0 Hz.\n",
@@ -831,7 +826,7 @@
    "source": [
     "from pickle import dump\n",
     "\n",
-    "subjects = [1]\n",
+    "subjects = [4]\n",
     "\n",
     "for sbj in subjects[:]:\n",
     "  print('sbj = ', sbj)\n",
@@ -844,40 +839,32 @@
   {
    "cell_type": "code",
    "execution_count": 8,
-   "id": "b3c48a8f",
+   "id": "b077cc1b",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-12-10T05:07:15.887086Z",
-     "iopub.status.busy": "2024-12-10T05:07:15.886799Z",
-     "iopub.status.idle": "2024-12-10T05:07:17.955067Z",
-     "shell.execute_reply": "2024-12-10T05:07:17.954091Z"
+     "iopub.execute_input": "2024-12-10T05:15:45.219069Z",
+     "iopub.status.busy": "2024-12-10T05:15:45.218616Z",
+     "iopub.status.idle": "2024-12-10T05:15:47.482309Z",
+     "shell.execute_reply": "2024-12-10T05:15:47.480809Z"
     },
     "id": "V7-P0xjwzXVX",
     "outputId": "270dceef-351d-48d1-f71e-2c3367c7fdac",
     "papermill": {
-     "duration": 2.0826,
-     "end_time": "2024-12-10T05:07:17.957122",
+     "duration": 2.286292,
+     "end_time": "2024-12-10T05:15:47.484952",
      "exception": false,
-     "start_time": "2024-12-10T05:07:15.874522",
+     "start_time": "2024-12-10T05:15:45.198660",
      "status": "completed"
     },
     "tags": []
    },
    "outputs": [
     {
-     "name": "stderr",
-     "output_type": "stream",
-     "text": [
-      "/opt/conda/lib/python3.10/pty.py:89: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.\n",
-      "  pid, fd = os.forkpty()\n"
-     ]
-    },
-    {
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "  adding: sbj1.h5 (deflated 75%)\r\n",
-      "  adding: sbj1.txt (deflated 51%)\r\n"
+      "  adding: sbj4.h5 (deflated 75%)\r\n",
+      "  adding: sbj4.txt (deflated 55%)\r\n"
      ]
     }
    ],
@@ -889,19 +876,19 @@
   {
    "cell_type": "code",
    "execution_count": 9,
-   "id": "29b2e2e6",
+   "id": "c9320da0",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-12-10T05:07:17.982268Z",
-     "iopub.status.busy": "2024-12-10T05:07:17.981965Z",
-     "iopub.status.idle": "2024-12-10T05:07:17.985915Z",
-     "shell.execute_reply": "2024-12-10T05:07:17.985217Z"
+     "iopub.execute_input": "2024-12-10T05:15:47.520812Z",
+     "iopub.status.busy": "2024-12-10T05:15:47.520341Z",
+     "iopub.status.idle": "2024-12-10T05:15:47.525964Z",
+     "shell.execute_reply": "2024-12-10T05:15:47.524844Z"
     },
     "papermill": {
-     "duration": 0.018438,
-     "end_time": "2024-12-10T05:07:17.987647",
+     "duration": 0.026201,
+     "end_time": "2024-12-10T05:15:47.528119",
      "exception": false,
-     "start_time": "2024-12-10T05:07:17.969209",
+     "start_time": "2024-12-10T05:15:47.501918",
      "status": "completed"
     },
     "tags": []
@@ -917,19 +904,19 @@
   {
    "cell_type": "code",
    "execution_count": 10,
-   "id": "a244fb09",
+   "id": "21ca7b12",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-12-10T05:07:18.012847Z",
-     "iopub.status.busy": "2024-12-10T05:07:18.012551Z",
-     "iopub.status.idle": "2024-12-10T05:07:18.016462Z",
-     "shell.execute_reply": "2024-12-10T05:07:18.015622Z"
+     "iopub.execute_input": "2024-12-10T05:15:47.563371Z",
+     "iopub.status.busy": "2024-12-10T05:15:47.562959Z",
+     "iopub.status.idle": "2024-12-10T05:15:47.568229Z",
+     "shell.execute_reply": "2024-12-10T05:15:47.567115Z"
     },
     "papermill": {
-     "duration": 0.01866,
-     "end_time": "2024-12-10T05:07:18.018037",
+     "duration": 0.025476,
+     "end_time": "2024-12-10T05:15:47.570391",
      "exception": false,
-     "start_time": "2024-12-10T05:07:17.999377",
+     "start_time": "2024-12-10T05:15:47.544915",
      "status": "completed"
     },
     "tags": []
@@ -942,19 +929,19 @@
   {
    "cell_type": "code",
    "execution_count": 11,
-   "id": "900ae6e7",
+   "id": "5781c3a4",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-12-10T05:07:18.042765Z",
-     "iopub.status.busy": "2024-12-10T05:07:18.042496Z",
-     "iopub.status.idle": "2024-12-10T05:07:18.046078Z",
-     "shell.execute_reply": "2024-12-10T05:07:18.045228Z"
+     "iopub.execute_input": "2024-12-10T05:15:47.605935Z",
+     "iopub.status.busy": "2024-12-10T05:15:47.605524Z",
+     "iopub.status.idle": "2024-12-10T05:15:47.610259Z",
+     "shell.execute_reply": "2024-12-10T05:15:47.609201Z"
     },
     "papermill": {
-     "duration": 0.017876,
-     "end_time": "2024-12-10T05:07:18.047562",
+     "duration": 0.025112,
+     "end_time": "2024-12-10T05:15:47.612348",
      "exception": false,
-     "start_time": "2024-12-10T05:07:18.029686",
+     "start_time": "2024-12-10T05:15:47.587236",
      "status": "completed"
     },
     "tags": []
@@ -968,19 +955,19 @@
   {
    "cell_type": "code",
    "execution_count": 12,
-   "id": "53f87cbc",
+   "id": "13d52a92",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-12-10T05:07:18.071761Z",
-     "iopub.status.busy": "2024-12-10T05:07:18.071503Z",
-     "iopub.status.idle": "2024-12-10T05:07:18.075061Z",
-     "shell.execute_reply": "2024-12-10T05:07:18.074255Z"
+     "iopub.execute_input": "2024-12-10T05:15:47.649582Z",
+     "iopub.status.busy": "2024-12-10T05:15:47.648479Z",
+     "iopub.status.idle": "2024-12-10T05:15:47.653568Z",
+     "shell.execute_reply": "2024-12-10T05:15:47.652334Z"
     },
     "papermill": {
-     "duration": 0.017323,
-     "end_time": "2024-12-10T05:07:18.076549",
+     "duration": 0.025822,
+     "end_time": "2024-12-10T05:15:47.655763",
      "exception": false,
-     "start_time": "2024-12-10T05:07:18.059226",
+     "start_time": "2024-12-10T05:15:47.629941",
      "status": "completed"
     },
     "tags": []
@@ -993,7 +980,7 @@
  ],
  "metadata": {
   "kaggle": {
-   "accelerator": "gpu",
+   "accelerator": "none",
    "dataSources": [
     {
      "datasetId": 1645904,
@@ -1017,7 +1004,7 @@
     }
    ],
    "dockerImageVersionId": 30786,
-   "isGpuEnabled": true,
+   "isGpuEnabled": false,
    "isInternetEnabled": true,
    "language": "python",
    "sourceType": "notebook"
@@ -1041,14 +1028,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 3444.53515,
-   "end_time": "2024-12-10T05:07:20.837312",
+   "duration": 3915.124657,
+   "end_time": "2024-12-10T05:15:50.632613",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2024-12-10T04:09:56.302162",
+   "start_time": "2024-12-10T04:10:35.507956",
    "version": "2.6.0"
   }
  },
